@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('prestamos', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id', false, true);
             $table->integer('book_id', false, true);
             $table->date('fecha_devolucion');
             $table->timestamps();

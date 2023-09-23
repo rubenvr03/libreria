@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Libros</title>
     @vite('resources/css/app.css')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/datepicker.min.js"></script>
 </head>
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">

@@ -24,7 +24,7 @@ class LibrosController extends Controller
         $createBook= Libros::addLibro($titulo, $autor, $anio_publicacion, $genero, $disponibilidad);
 
             session()->flash('bookAdd','Libro añadido exitosamente');
-            return Redirect::to('/books');
+            return Redirect::to('/');
 
     }
 
